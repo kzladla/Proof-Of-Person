@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 9724
+  controlID: 10378
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -551,9 +551,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 9.860004, y: -7.3910627, z: 3.5560348}
+    m_Target: {x: 4.612826, y: -0.5146115, z: -5.220058}
     speed: 2
-    m_Value: {x: 9.860004, y: -7.3910627, z: 3.5560348}
+    m_Value: {x: 4.612826, y: -0.5146115, z: -5.220058}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -601,11 +601,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.24544029, y: 0.52773833, z: -0.16255313, w: 0.79678345}
     speed: 2
-    m_Value: {x: 0.2430445, y: 0.5282141, z: -0.16096622, w: 0.7975018}
+    m_Value: {x: 0.24543588, y: 0.52772886, z: -0.16255021, w: 0.7967691}
   m_Size:
-    m_Target: 10.072285
+    m_Target: 14.292459
     speed: 2
-    m_Value: 10.072285
+    m_Value: 14.292459
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -663,7 +663,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 9725
+  controlID: 10379
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 9726
+  controlID: 10380
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -759,9 +759,9 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -30702
+      - m_Data: -7196
       m_LastClickedID:
-        m_Data: -30702
+        m_Data: -7196
       m_ExpandedIDs:
       - m_Data: -30702
       - m_Data: -21578
@@ -998,7 +998,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/npc
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/npc
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/kaseyalford/Documents/Proof-Of-Person-main/Proof-Of-Person/Proof
     Of Person
@@ -1018,9 +1018,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 47214
+    - m_Data: 46082
     m_LastClickedID:
-      m_Data: 47214
+      m_Data: 46082
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 45790
@@ -1089,9 +1089,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -30702
-    m_LastClickedInstanceID: -30702
-    m_HadKeyboardFocusLastEvent: 0
+    - m_Data: -7196
+    m_LastClickedInstanceID: -7196
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1179,8 +1179,8 @@ MonoBehaviour:
     y: 0
     width: 347.5
     height: 783
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}

@@ -456,6 +456,7 @@
 "Assets/Scripts/npc/NPC_Controller.cs"
 "Assets/Scripts/npc/npc_move_test.cs"
 "Assets/Scripts/player/FirstPersonCamera.cs"
+"Assets/Scripts/player/Interactor.cs"
 -langversion:9.0
 /deterministic
 /optimize+

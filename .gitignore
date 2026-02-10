@@ -97,3 +97,4 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+queue test/Library/PackageCache/com.unity.burst@973857688024/.Runtime/libburst-llvm-19.dylib
