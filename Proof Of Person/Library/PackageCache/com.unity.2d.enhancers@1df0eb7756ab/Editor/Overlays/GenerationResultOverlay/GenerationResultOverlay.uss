@@ -1,0 +1,58 @@
+:root {
+    flex-grow: 1;
+    min-width: 100px;
+    height: 400px;
+}
+.GenerationResultOverlay {
+    flex-grow: 1;
+}
+
+GenerationSelector {
+    min-height: 50px;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.vertical-layout .min-height-200px {
+    flex-shrink: 0;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.vertical-layout vertical-layout-flex-grow {
+    flex-grow: 1;
+}
+
+.horizontal-layout-flex,
+.vertical-layout-flex {
+    display: none;
+}
+
+.horizontal-layout .horizontal-layout-flex {
+    display: flex;
+}
+
+.vertical-layout .vertical-layout-flex {
+    display: flex;
+}
+
+.horizontal-layout .left-stack {
+    min-width: 380px;
+    max-width: 380px;
+}
+
+.unity-scroller--vertical {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+.grid-view .unity-scroll-view__content-and-vertical-scroll-container {
+    padding-right: 10px;
+}
+
+.image-reference {
+    padding: 8px 9px;
+    border-bottom-color: #141414;
+    border-bottom-width: 1px;
+}

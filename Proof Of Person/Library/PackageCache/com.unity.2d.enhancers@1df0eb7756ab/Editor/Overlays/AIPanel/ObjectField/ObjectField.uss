@@ -1,0 +1,7 @@
+ObjectField{
+    position : absolute;
+    width : 15px;
+    height : 15px;
+    right : 0px;
+    bottom : 0px;
+}

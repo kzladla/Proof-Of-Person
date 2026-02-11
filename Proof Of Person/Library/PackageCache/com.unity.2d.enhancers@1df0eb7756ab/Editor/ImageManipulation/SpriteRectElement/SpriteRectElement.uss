@@ -1,0 +1,8 @@
+.sprite-rect {
+}
+
+.sprite-rect_border {
+    border-width: 2px;
+    border-color: rgba(64, 128, 255, 0.75);
+    position: absolute;
+}

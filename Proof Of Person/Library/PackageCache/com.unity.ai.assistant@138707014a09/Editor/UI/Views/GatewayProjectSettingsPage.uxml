@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="gateway-settings-page">
+        <ui:Label text="Gateway" name="gatewaySettingsHeader" class="gateway-settings-header" />
+        <ui:ScrollView class="gateway-settings-scroll">
+            <ui:VisualElement class="gateway-settings-content">
+                <!-- Agent Type Selection -->
+                <ui:VisualElement class="gateway-settings-row">
+                    <ui:Label text="Agent Type" class="gateway-settings-label" />
+                    <ui:VisualElement class="gateway-dropdown-with-version">
+                        <ui:DropdownField name="agent-type-dropdown" class="gateway-settings-dropdown" />
+                        <ui:Label name="agent-version-label" class="gateway-version-label" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- Help Text -->
+                <ui:Label name="agent-help-text" class="gateway-help-text" />
+
+                <!-- CLI Path (optional override) -->
+                <ui:VisualElement name="cli-path-container" class="gateway-settings-row gateway-cli-path-container">
+                    <ui:Label name="cli-path-label" text="CLI Path (optional)" class="gateway-settings-label" />
+                    <ui:VisualElement class="gateway-path-row">
+                        <ui:TextField name="cli-path-field" class="gateway-cli-path-field" />
+                        <ui:Button name="cli-path-browse-button" text="Browse..." class="gateway-browse-button" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- Environment Variables -->
+                <ui:Foldout text="Environment Variables" name="env-vars-foldout" value="true" class="gateway-env-vars-foldout">
+                    <ui:VisualElement name="env-vars-container" class="gateway-env-vars-container" />
+                    <ui:Button name="add-env-var-button" text="+ Add Variable" class="gateway-add-button" />
+                </ui:Foldout>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

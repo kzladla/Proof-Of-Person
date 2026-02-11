@@ -1,0 +1,5 @@
+
+/* Set the background image When the checkbox is not selected. */
+EditToggle > .unity-toggle__input > .unity-toggle__checkmark {
+    background-image: resource("Packages/com.unity.2d.ai/Editor/PackageResources/icons/d_Doodle@32.png");
+}

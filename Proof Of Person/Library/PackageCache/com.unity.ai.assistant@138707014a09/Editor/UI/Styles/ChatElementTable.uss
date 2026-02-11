@@ -1,0 +1,46 @@
+.mui-chat-response-table {
+    flex-direction: column;
+    align-self: flex-start;
+    border-radius: 0;
+    background-color: var(--muse-chat-backgrounds-200);
+}
+
+.mui-chat-response-table-row {
+    min-height: 32px;
+    max-height: 200px;
+    margin-left: 1px;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-color: var(--muse-chat-backgrounds-200);
+}
+
+.mui-chat-response-table-cell-style {
+    width: 240px;
+    min-height: 24px;
+    max-height: 188px;
+    padding: 8px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.mui-chat-response-table-cell-text-alignment-center {
+    -unity-text-align: upper-center;
+}
+
+.mui-chat-response-table-cell-text-alignment-right {
+    -unity-text-align: upper-right;
+}
+
+.mui-chat-response-table-header-style {
+    -unity-font-style: bold;
+    background-color: var(--muse-chat-backgrounds-100);
+}
+
+.mui-chat-response-table-even-row-cell-style {
+    background-color: var(--muse-chat-backgrounds-50);
+}
+
+.mui-chat-response-table-odd-row-cell-style {
+    background-color: var(--muse-chat-backgrounds-100);
+}

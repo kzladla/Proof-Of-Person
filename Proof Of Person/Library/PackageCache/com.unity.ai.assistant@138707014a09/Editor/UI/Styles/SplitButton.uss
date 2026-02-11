@@ -1,0 +1,60 @@
+.splitbutton__element {
+    flex-direction: row;
+    align-items: center;
+}
+
+.split-button-root {
+    flex-direction: row;
+    flex-shrink: 0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+/* Main button (left side) */
+.split-button-main {
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border-width: 1px;
+    border-right-width: 1px;
+    border-radius: 3px 0 0 3px;
+    margin: 0;
+}
+
+.split-button-main:disabled {
+    opacity: 0.5;
+}
+
+.split-button-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-right: 4px;
+    -unity-background-image-tint-color: var(--muse-chat-image-hover-tint);
+}
+
+.split-button-label {
+    flex-shrink: 0;
+}
+
+/* Dropdown button (right side) */
+.split-button-dropdown {
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgba(0,0,0,0);
+    border-radius: 0 3px 3px 0;
+    margin: 0;
+}
+
+.split-button-dropdown:disabled {
+    opacity: 0.5;
+}
+
+.split-button-caret {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+}

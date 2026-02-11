@@ -1,0 +1,1 @@
+2D Enhancers provides an integration of AI tools in the 2D suite.

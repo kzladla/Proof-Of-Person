@@ -1,0 +1,28 @@
+{
+  "name": "com.unity.ai.assistant",
+  "displayName": "Assistant",
+  "version": "1.6.0-pre.1",
+  "unity": "6000.3",
+  "description": "Assistant is a generative AI tool integrated into the Unity Editor to explore ideas, answer questions, and perform actions directly in the project. Use natural-language prompts to interact with Assistant in a conversation-based interface. Depending on the mode you choose, Assistant can either provide guidance or take action in your scene and assets.\n\nAsk\nFocuses on explanation and guidance. Assistant answers questions, suggests workflows, and inspects your project using read-only tools without modifying your content.\n\nAgent\nFocuses on action. Assistant can create, modify, or remove objects and assets by calling the Unity Editor tools. All actions respect your permission settings and require approval when needed.\n\nAssistant is designed to be project-aware, helping you work more efficiently without leaving the Unity Editor. For best results, use Assistant with Unity 6.3 or later.",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.serialization": "3.1.1",
+    "com.unity.ai.generators": "1.6.0-pre.1"
+  },
+  "unityRelease": "0f1",
+  "_upm": {
+    "changelog": "### Added\n- Added links to the Profiler Window for the profiling agent integration"
+  },
+  "upmCi": {
+    "footprint": "92b7abedf950af13ad62dd7442fa9bc42d1c748b"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ai.assistant@1.6/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/muse-editor.git",
+    "type": "git",
+    "revision": "29e59069360cf959145f8477accf4722bb2a1829"
+  },
+  "_fingerprint": "138707014a09f242a3039e3e4eb8ea474b1717e3"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Unity.2D.Enhancers.Editor",
+    "rootNamespace": "Unity.U2D.AI.Editor",
+    "references": [
+        "GUID:ce6baade223984afda3f24c7fca12584",
+        "GUID:2c573e6b271651846a79655161004c5b",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:653b1f530b35452bb6eb984b1ca7965c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

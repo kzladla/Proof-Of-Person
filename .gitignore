@@ -98,3 +98,5 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 queue test/Library/PackageCache/com.unity.burst@973857688024/.Runtime/libburst-llvm-19.dylib
+Proof Of Person/Library/PackageCache/com.unity.ai.assistant@138707014a09/RelayApp~/relay_linux
+Proof Of Person/Library/PackageCache/com.unity.ai.assistant@138707014a09/RelayApp~/relay_win.exe

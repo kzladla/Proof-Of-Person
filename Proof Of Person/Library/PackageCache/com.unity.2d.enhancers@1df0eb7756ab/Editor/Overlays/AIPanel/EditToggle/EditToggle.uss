@@ -1,0 +1,12 @@
+EditToggle{
+    position : absolute;
+    top: 0px;
+    right: 0px;
+    background-color: var(--unity-colors-button-background);
+    width: 20px;
+    height: 20px;
+}
+
+EditToggle:checked  {
+    background-color: var(--unity-colors-button-background-pressed);
+}

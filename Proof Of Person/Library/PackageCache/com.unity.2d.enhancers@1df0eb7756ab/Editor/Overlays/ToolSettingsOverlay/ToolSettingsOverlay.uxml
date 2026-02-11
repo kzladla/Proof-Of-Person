@@ -1,0 +1,7 @@
+<!-- GenerateUI.uxml -->
+<UXML xmlns="UnityEngine.UIElements"
+      xmlns:ui="Unity.AI.Image.Panel">
+    <Style src="./ToolSettingsOverlay.uss" />
+    <VisualElement class="flex-column flex-grow bg-light">
+    </VisualElement>
+</UXML>

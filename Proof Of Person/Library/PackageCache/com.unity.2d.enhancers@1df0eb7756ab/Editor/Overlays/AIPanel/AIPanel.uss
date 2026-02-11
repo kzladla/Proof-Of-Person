@@ -1,0 +1,13 @@
+:root{
+    flex: 1 1 0;
+}
+
+.doodlepad.selected {
+    border-color: var(--unity-colors-button-background-pressed);
+    border-width: 1px;
+}
+
+.doodlepad {
+    border-color: transparent;
+    border-width: 1px;
+}

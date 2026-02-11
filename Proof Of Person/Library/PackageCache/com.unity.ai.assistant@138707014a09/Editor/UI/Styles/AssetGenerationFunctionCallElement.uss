@@ -1,0 +1,90 @@
+.functioncallelement__element {
+    --muse-chat-status-green: #4CAF50;
+    --muse-chat-status-yellow: #FFC107;
+    --muse-chat-status-red: #F44336;
+}
+
+.mui-function-call-entry-root {
+    flex-direction: column;
+}
+
+.mui-function-call-text-field {
+    color: var(--muse-chat-text-secondary);
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+TextField.mui-function-call-text-field > #unity-text-input {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.mui-function-call-expanded {
+    background-color: var(--muse-chat-backgrounds-75);
+}
+
+.mui-function-call-entry-header-container {
+    flex-direction: row;
+    padding: 3px 2px 3px 3px;
+    height: 25px;
+}
+
+.mui-function-call-entry-header-container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#functionCallTitle {
+    flex-grow: 0;
+    align-self: center;
+    color: var(--muse-chat-text-primary);
+    margin-right: 4px;
+}
+
+#functionCallParameters {
+    color: var(--muse-chat-text-thoughts);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+}
+
+#functionCallContent {
+    margin: 3px 6px 5px 22px;
+}
+
+.function-call-content-scroll {
+    max-height: 200px;
+    flex-grow: 1;
+}
+
+.mui-function-call-separator-line {
+    height: 2px;
+    background-color: var(--muse-chat-backgrounds-50);
+}
+
+.status-indicator {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-right: 6px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.mui-function-call-status-success {
+    background-color: var(--muse-chat-status-green);
+}
+
+.mui-function-call-status-yellow {
+    background-color: var(--muse-chat-status-yellow);
+}
+
+.mui-function-call-status-failed {
+    background-color: var(--muse-chat-status-red);
+}

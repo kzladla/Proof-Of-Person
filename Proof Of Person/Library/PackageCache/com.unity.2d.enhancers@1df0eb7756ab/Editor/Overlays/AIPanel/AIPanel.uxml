@@ -1,0 +1,6 @@
+<!-- GenerateUI.uxml -->
+<UXML xmlns="UnityEngine.UIElements"
+      xmlns:ui="Unity.AI.Image.Panel">
+    <Style src="./AIPanel.uss" />
+    <ui:AIPanel name="ai-panel"/>
+</UXML>

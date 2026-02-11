@@ -1005,6 +1005,7 @@ GameObject:
   - component: {fileID: 1207039457}
   - component: {fileID: 1207039460}
   - component: {fileID: 1207039459}
+  - component: {fileID: 1207039463}
   - component: {fileID: 1207039458}
   - component: {fileID: 1207039462}
   - component: {fileID: 1207039461}
@@ -1146,6 +1147,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameController
   Target: {fileID: 1789223459}
   Agent: {fileID: 1207039461}
+--- !u!114 &1207039463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207039456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eef45b02582b48f5aa00907b938ceb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interact_test
+  Target: {fileID: 1551746698}
+  Agent: {fileID: 1207039461}
 --- !u!1 &1225655902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,7 +1189,7 @@ Transform:
   m_GameObject: {fileID: 1225655902}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33, y: 0, z: 3.55}
+  m_LocalPosition: {x: 0.6700001, y: 0, z: 4.39}
   m_LocalScale: {x: 0.76135, y: 0.76135, z: 0.76135}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1492,6 +1507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552354425}
   - component: {fileID: 1552354426}
+  - component: {fileID: 1552354427}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1531,6 +1547,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FirstPersonCamera
   player: {fileID: 1552354425}
   mouseSensitivity: 2
+--- !u!114 &1552354427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552354424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299958791f7f441b0a0b9eae561e18eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactor
+  InteractorSource: {fileID: 2086059359}
+  InteractRange: 2.5
 --- !u!1 &1742549963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,7 +1589,7 @@ Transform:
   m_GameObject: {fileID: 1742549963}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33, y: 0, z: 6.04}
+  m_LocalPosition: {x: 0.6700001, y: 0, z: 6.88}
   m_LocalScale: {x: 0.76135, y: 0.76135, z: 0.76135}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1671,7 +1701,7 @@ Transform:
   m_GameObject: {fileID: 1789223458}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33, y: 0, z: 1.11}
+  m_LocalPosition: {x: 0.67, y: 0, z: 1.95}
   m_LocalScale: {x: 0.76135, y: 0.76135, z: 0.76135}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1783,8 +1813,8 @@ Transform:
   m_GameObject: {fileID: 1839558822}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.000000059605, z: 0}
+  m_LocalScale: {x: 1.5922, y: 1.5922, z: 1.5922}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1552354425}
@@ -1836,8 +1866,7 @@ MeshRenderer:
   m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 824c660365069413b995bf30ef44a332, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2171,7 +2200,7 @@ Transform:
   m_GameObject: {fileID: 1968026021}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33, y: 0, z: 8.48}
+  m_LocalPosition: {x: 0.6700001, y: 0, z: 9.32}
   m_LocalScale: {x: 0.76135, y: 0.76135, z: 0.76135}
   m_ConstrainProportionsScale: 0
   m_Children: []

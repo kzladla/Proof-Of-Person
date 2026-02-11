@@ -1,0 +1,5 @@
+#textContent {
+    white-space: normal;
+    -unity-text-align: upper-left;
+    color: var(--muse-chat-text-thoughts);
+}

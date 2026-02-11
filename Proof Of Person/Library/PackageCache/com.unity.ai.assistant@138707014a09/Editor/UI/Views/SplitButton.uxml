@@ -1,0 +1,11 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="root" class="split-button-root">
+        <ui:Button name="mainButton" class="mui-action-button split-button-main">
+            <ui:Image name="icon" class="split-button-icon" style="display: none;"/>
+            <ui:Label name="label" class="split-button-label"/>
+        </ui:Button>
+        <ui:Button name="dropdownButton" class="mui-action-button split-button-dropdown">
+            <ui:Image name="caret" class="split-button-caret mui-icon-arrow-caret-down"/>
+        </ui:Button>
+    </ui:VisualElement>
+</UXML>

@@ -1,0 +1,41 @@
+#pragma kernel PaintAreaCS
+
+RWTexture2D<float4> ResultTexture;  // Output texture
+StructuredBuffer<float2> Poly;       // Polygon vertices
+uint PolyCount; // try int
+int Width;
+float4 PaintColor;
+
+[numthreads(8, 8, 1)]  // Adjust based on GPU performance
+void PaintAreaCS(uint3 id : SV_DispatchThreadID)
+{
+    int x = id.x;
+    int y = id.y;
+
+    int height;
+    ResultTexture.GetDimensions(Width, height);
+
+    if (x >= Width || y >= height) return;
+
+    float2 p = float2(x, y);
+    int windingNumber = 0;
+
+    for (uint i = 0; i < PolyCount; i++)
+    {
+        float2 v1 = Poly[i];
+        float2 v2 = Poly[(i + 1) % PolyCount];
+
+        bool upwardCrossing = v1.y <= p.y && v2.y > p.y;
+        bool downwardCrossing = v1.y > p.y && v2.y <= p.y;
+
+        float isLeft = (v2.x - v1.x) * (p.y - v1.y) - (p.x - v1.x) * (v2.y - v1.y);
+
+        if (upwardCrossing && isLeft > 0) windingNumber++;
+        else if (downwardCrossing && isLeft < 0) windingNumber--;
+    }
+
+    if (windingNumber != 0)
+    {
+        ResultTexture[id.xy] = PaintColor;  // Set pixel color
+    }
+}
