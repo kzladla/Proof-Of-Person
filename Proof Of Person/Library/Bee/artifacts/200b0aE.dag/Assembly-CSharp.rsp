@@ -495,9 +495,12 @@
 -analyzer:"Library/PackageCache/com.unity.ai.inference@e760aa121ec7/Runtime/Core/SourceGenerator/SourceGenerators.dll"
 -analyzer:"Library/PackageCache/com.unity.dt.app-ui@8ac7e730dd5d/Runtime/MVVM/SourceGenerators/netstandard2.0/MVVMSourceGenerators.dll"
 -analyzer:"Library/PackageCache/com.unity.dt.app-ui@8ac7e730dd5d/Runtime/SourceGenerators/netstandard2.0/EnumToLowerCase.dll"
+"Assets/Scripts/Game_Manager.cs"
+"Assets/Scripts/npc/Entry_Target.cs"
 "Assets/Scripts/npc/Interact_test.cs"
 "Assets/Scripts/npc/NPC_Controller.cs"
 "Assets/Scripts/npc/npc_move_test.cs"
+"Assets/Scripts/npc/Targets.cs"
 "Assets/Scripts/player/FirstPersonCamera.cs"
 "Assets/Scripts/player/Interactor.cs"
 -langversion:9.0

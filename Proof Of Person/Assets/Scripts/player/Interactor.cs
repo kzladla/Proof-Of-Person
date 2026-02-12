@@ -11,6 +11,8 @@ public class Interactor : MonoBehaviour
     public Transform InteractorSource;
     public float InteractRange;
 
+    private NPC_Controller nPC_Controller;
+
     void Start() 
     {
 
