@@ -9,7 +9,7 @@ public class Interact_test : MonoBehaviour, IInteractable
     public void Interact() {
         Debug.Log("Interacted with " + gameObject.name);
         Agent.SetDestination(Target.position);
-        nPC_Controller.Target = Target;
+        // nPC_Controller.Target = Target;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

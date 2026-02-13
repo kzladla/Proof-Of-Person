@@ -792,3 +792,93 @@
 [2026-02-12T13:55:43.638Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
 [2026-02-12T13:55:43.639Z] [INFO] Unity client connected with ID: editor-1212-6xv87w
 [2026-02-12T13:55:45.198Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T09:43:57.292Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:43:57.310Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:43:57.310Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T09:43:57.311Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T09:43:57.316Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T09:44:09.403Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:44:09.421Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:44:09.434Z] [INFO] Unity client connected with ID: editor-1212-tcuflh
+[2026-02-13T09:44:10.329Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T09:48:04.320Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:48:04.342Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:48:04.342Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T09:48:04.342Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T09:48:04.345Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T09:48:13.788Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:48:13.812Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:48:13.823Z] [INFO] Unity client connected with ID: editor-1212-vdmxsd
+[2026-02-13T09:48:15.138Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T09:51:38.868Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:51:38.878Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:51:38.878Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T09:51:38.878Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T09:51:38.882Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T09:51:47.134Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:51:47.143Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:51:47.145Z] [INFO] Unity client connected with ID: editor-1212-xdmlap
+[2026-02-13T09:51:48.713Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T09:51:52.848Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:51:52.851Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:51:52.851Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T09:51:52.851Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T09:51:52.853Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T09:52:02.316Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:52:02.324Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:52:02.325Z] [INFO] Unity client connected with ID: editor-1212-7zsvpa
+[2026-02-13T09:52:02.359Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T09:53:28.602Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:53:28.619Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:53:28.619Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T09:53:28.619Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T09:53:28.623Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T09:53:36.490Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:53:36.499Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:53:36.500Z] [INFO] Unity client connected with ID: editor-1212-ic2dhk
+[2026-02-13T09:53:37.940Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T09:53:41.106Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:53:41.106Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:53:41.106Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T09:53:41.106Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T09:53:41.109Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T09:53:48.889Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:53:48.898Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:53:48.899Z] [INFO] Unity client connected with ID: editor-1212-8702o1
+[2026-02-13T09:53:48.920Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T09:55:17.429Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:55:17.443Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T09:55:17.443Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:55:17.443Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T09:55:17.448Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T09:55:26.120Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:55:26.127Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:55:26.129Z] [INFO] Unity client connected with ID: editor-1212-yj54rp
+[2026-02-13T09:55:26.162Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T09:56:18.118Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:56:18.129Z] [DEBUG] MessageSender blocked
+[2026-02-13T09:56:18.129Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T09:56:18.129Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T09:56:18.133Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T09:56:26.478Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:56:26.487Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T09:56:26.488Z] [INFO] Unity client connected with ID: editor-1212-i5yf0r
+[2026-02-13T09:56:26.520Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T10:08:44.711Z] [DEBUG] MessageSender blocked
+[2026-02-13T10:08:44.722Z] [DEBUG] MessageSender blocked
+[2026-02-13T10:08:44.722Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T10:08:44.722Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T10:08:44.726Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T10:08:55.126Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T10:08:55.141Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T10:08:55.142Z] [INFO] Unity client connected with ID: editor-1212-eev21m
+[2026-02-13T10:08:56.321Z] [DEBUG] Server validation check - testing availability
+[2026-02-13T10:18:09.204Z] [DEBUG] MessageSender blocked
+[2026-02-13T10:18:09.219Z] [DEBUG] MessageSender blocked
+[2026-02-13T10:18:09.219Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-13T10:18:09.219Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-13T10:18:09.222Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-13T10:18:19.194Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T10:18:19.185Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-13T10:18:19.196Z] [INFO] Unity client connected with ID: editor-1212-j47y6e
+[2026-02-13T10:18:19.222Z] [DEBUG] Server validation check - testing availability

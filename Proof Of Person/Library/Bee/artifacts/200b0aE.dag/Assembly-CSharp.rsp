@@ -500,6 +500,7 @@
 "Assets/Scripts/npc/Interact_test.cs"
 "Assets/Scripts/npc/NPC_Controller.cs"
 "Assets/Scripts/npc/npc_move_test.cs"
+"Assets/Scripts/npc/Queue_Manager.cs"
 "Assets/Scripts/npc/Targets.cs"
 "Assets/Scripts/player/FirstPersonCamera.cs"
 "Assets/Scripts/player/Interactor.cs"

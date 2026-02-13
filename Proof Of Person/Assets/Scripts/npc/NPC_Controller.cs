@@ -3,13 +3,16 @@ using UnityEngine.AI;
 
 public class NPC_Controller : MonoBehaviour
 {
-    public Transform Target;
-    public NavMeshAgent Agent;
-   
+    public NavMeshAgent agent;
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        Agent.SetDestination(Target.position);
+        if (agent == null)
+            agent = GetComponent<NavMeshAgent>();
+    }
+
+    public void MoveTo(Vector3 targetPosition)
+    {
+        agent.SetDestination(targetPosition);
     }
 }
