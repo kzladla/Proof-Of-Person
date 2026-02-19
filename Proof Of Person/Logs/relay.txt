@@ -864,3 +864,11 @@
 [2026-02-19T18:02:15.076Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
 [2026-02-19T18:02:15.077Z] [INFO] Unity client connected with ID: editor-1212-rwqz5u
 [2026-02-19T18:02:15.115Z] [DEBUG] Server validation check - testing availability
+[2026-02-19T18:04:11.308Z] [INFO] Shutdown request received from client editor-1212-rwqz5u
+[2026-02-19T18:04:11.320Z] [INFO] Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-02-19T18:04:11.322Z] [INFO] Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-02-19T18:04:11.333Z] [DEBUG] MessageSender blocked
+[2026-02-19T18:04:11.333Z] [DEBUG] MessageSender blocked
+[2026-02-19T18:04:11.333Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-19T18:04:11.333Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-19T18:04:11.333Z] [INFO] Auto-shutdown timer started due to client disconnection
