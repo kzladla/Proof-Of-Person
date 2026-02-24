@@ -1,70 +1,74 @@
+using System.Security.AccessControl;
 using UnityEngine;
 using UnityEngine.AI;
-using System.Collections.Generic;
 
 public class NPC_Controller : MonoBehaviour
 {
+    public NavMeshAgent agent;
+    public Transform[] targets;   // Assign in Inspector
+
+    [SerializeField] private Transform Approve_Target;
+    [SerializeField] private Transform Deny_Target;
+
+    public int currentTargetIndex = 0;
+
     public GameObject uiCanvas;
-
-    [Header("Queue Setup")]
-    public List<NavMeshAgent> npcs = new List<NavMeshAgent>();
-    public Transform[] queueSpots;   // Front spot = index 0
-
-    [Header("Decision Targets")]
-    public Transform entryPoint;
-    public Transform denyPoint;
-
-
 
     void Start()
     {
-        UpdateQueuePositions();
+        if (agent == null)
+            agent = GetComponent<NavMeshAgent>();
+
+        if (targets.Length > 0)
+            agent.SetDestination(targets[currentTargetIndex].position);
     }
 
     void Update()
     {
-        // For testing: Press 'A' to approve front NPC, 'D' to deny front NPC
-        if (Input.GetKeyDown(KeyCode.A)) ApproveFront();
-        if (Input.GetKeyDown(KeyCode.D)) DenyFront();
-        // if (Input.GetKeyDown(KeyCode.E)) UpdateQueuePositions();
-    }
-
-    // 🔹 UI BUTTON → Approve front NPC
-    public void ApproveFront()
-    {
-        if (npcs.Count == 0) return;
-
-        NavMeshAgent frontNPC = npcs[0];
-        frontNPC.SetDestination(entryPoint.position);
-
-        npcs.RemoveAt(0);  // Remove front NPC from queue
-        UpdateQueuePositions();
-    }
-
-    // 🔹 UI BUTTON → Deny front NPC
-    public void DenyFront()
-    {
-        if (npcs.Count == 0) return;
-
-        NavMeshAgent frontNPC = npcs[0];
-        frontNPC.SetDestination(denyPoint.position);
-
-        npcs.RemoveAt(0);  // Remove front NPC from queue
-        UpdateQueuePositions();
-    }
-
-    // 🔹 Move remaining NPCs forward in queue
-    void UpdateQueuePositions()
-    {
-        for (int i = 0; i < npcs.Count; i++)
+        // press e to switch target
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            if (i < queueSpots.Length)
-                npcs[i].SetDestination(queueSpots[i].position);
+            SwitchTarget();
         }
     }
 
-    public void HideUI() 
+    void SwitchTarget()
+    {
+        if (targets.Length == 0) return;
+
+        // go to next queue target
+        currentTargetIndex++;
+
+        // go to back of queue when you reach the front
+        if (currentTargetIndex >= targets.Length)
+            currentTargetIndex = 0;
+
+        agent.SetDestination(targets[currentTargetIndex].position);
+    }
+
+    public void showUI()
+    {
+        uiCanvas.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void hideUI()
     {
         uiCanvas.SetActive(false);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    public void Approve()
+    {
+        agent.SetDestination(Approve_Target.position);
+        Debug.Log("Approved ");
+        hideUI();
+    }
+    public void Deny()
+    {
+        agent.SetDestination(Deny_Target.position);
+        Debug.Log("Denied ");
+        hideUI();
     }
 }

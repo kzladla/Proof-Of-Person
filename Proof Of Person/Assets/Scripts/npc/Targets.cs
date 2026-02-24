@@ -9,16 +9,10 @@ public class Targets : MonoBehaviour
         if (other.CompareTag("NPC"))
         {
             npcInside = true;
-            Debug.Log("NPC entered trigger");
+            Destroy(other.gameObject);
+            npcInside = false;
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("NPC"))
-        {
-            npcInside = false;
-            Debug.Log("NPC left trigger");
-        }
-    }
+
 }

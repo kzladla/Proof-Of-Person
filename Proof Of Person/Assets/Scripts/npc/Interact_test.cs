@@ -5,7 +5,7 @@ public class Interact_test : MonoBehaviour, IInteractable
 {
     // [SerializeField] private Transform Target;
     // [SerializeField] private NavMeshAgent Agent;
-    // [SerializeField] private NPC_Controller nPC_Controller;
+    [SerializeField] private NPC_Controller nPC_Controller;
 
     public GameObject uiCanvas;
 
@@ -15,7 +15,8 @@ public class Interact_test : MonoBehaviour, IInteractable
 
         // Agent.SetDestination(Target.position);
         // nPC_Controller.Target = Target;
-        uiCanvas.SetActive(true);
+        nPC_Controller.showUI();
+
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
