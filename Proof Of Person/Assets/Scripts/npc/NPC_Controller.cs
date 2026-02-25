@@ -7,8 +7,9 @@ public class NPC_Controller : MonoBehaviour
 
     public NavMeshAgent agent;
     public Transform[] targets;   // array of targets to move position forward
-
-    // tagets for approve and deny
+    
+    private NPC_Controller nPC_Controller;  
+    // targets for approve and deny
     [SerializeField] private Transform Approve_Target;
     [SerializeField] private Transform Deny_Target;
 
@@ -31,13 +32,14 @@ public class NPC_Controller : MonoBehaviour
     void Update()
     {
         // press e to switch target / move queue forward
+        // for debugging - remove later 
         if (Input.GetKeyDown(KeyCode.E))
         {
             SwitchTarget();
         }
     }
 
-    void SwitchTarget()
+    public void SwitchTarget()
     {
         // if no targets, do nothing
         if (targets.Length == 0) return;
@@ -71,10 +73,12 @@ public class NPC_Controller : MonoBehaviour
     {   // move to approve target position
         agent.SetDestination(Approve_Target.position);
         hideUI();
+
     }
     public void Deny()
     {   // move to deny target position
         agent.SetDestination(Deny_Target.position);
         hideUI();
+
     }
 }
