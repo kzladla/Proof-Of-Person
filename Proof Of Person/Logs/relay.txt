@@ -1822,3 +1822,251 @@
 [2026-02-25T12:41:22.192Z] [INFO] Auto-shutdown timer started due to client disconnection
 [2026-02-25T12:41:22.192Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
 [2026-02-25T12:41:22.192Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-25T12:51:13.538Z] [INFO] === RELAY SERVER STARTED ===
+[2026-02-25T12:51:13.538Z] [INFO] Parsed config: {
+  "port": 9001,
+  "mcpClientPort": 9002,
+  "editorPid": "4408",
+  "shutdownDelaySeconds": 180
+}
+[2026-02-25T12:51:13.538Z] [INFO] Creating RelayEditor...
+[2026-02-25T12:51:13.538Z] [INFO] Command line arguments: [
+  "bun",
+  "/$bunfs/root/relay_mac_arm64",
+  "--relay",
+  "--port",
+  "9001",
+  "--mcp-client-port",
+  "9002",
+  "--editor-pid",
+  "4408",
+  "--shutdown-delay",
+  "180"
+]
+[2026-02-25T12:51:13.538Z] [INFO] Initializing relay components...
+[2026-02-25T12:51:13.538Z] [INFO] Starting relay server...
+[2026-02-25T12:51:13.545Z] [INFO] WebSocket server started
+[2026-02-25T12:51:13.545Z] [INFO] MCP Client initialized at port: 9002
+[2026-02-25T12:51:13.545Z] [INFO] Relay server initialization completed
+[2026-02-25T12:51:13.563Z] [INFO] Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-02-25T12:51:13.688Z] [INFO] Unity client connected with ID: editor-4408-cnp6db
+[2026-02-25T12:51:13.742Z] [DEBUG] Server validation check - testing availability
+[2026-02-25T12:51:14.914Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-25T12:51:14.914Z] [DEBUG] MessageSender blocked
+[2026-02-25T12:51:14.914Z] [DEBUG] MessageSender blocked
+[2026-02-25T12:51:14.914Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-25T12:51:14.914Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-25T12:51:21.405Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-25T12:51:21.444Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-25T12:51:21.447Z] [INFO] Unity client connected with ID: editor-4408-mbe7xq
+[2026-02-25T12:51:21.508Z] [DEBUG] Server validation check - testing availability
+[2026-02-26T09:28:23.737Z] [DEBUG] MessageSender blocked
+[2026-02-26T09:28:23.753Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-26T09:28:23.753Z] [DEBUG] MessageSender blocked
+[2026-02-26T09:28:23.753Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-26T09:28:23.756Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-26T09:28:31.854Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-26T09:28:31.833Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-26T09:28:31.856Z] [INFO] Unity client connected with ID: editor-4408-pk9f79
+[2026-02-26T09:28:31.916Z] [DEBUG] Server validation check - testing availability
+[2026-02-26T09:28:51.531Z] [DEBUG] MessageSender blocked
+[2026-02-26T09:28:51.639Z] [DEBUG] MessageSender blocked
+[2026-02-26T09:28:51.639Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-26T09:28:51.642Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-26T09:28:51.655Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-26T09:28:57.769Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-26T09:28:57.794Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-02-26T09:28:57.796Z] [INFO] Unity client connected with ID: editor-4408-2bguid
+[2026-02-26T09:28:57.813Z] [DEBUG] Server validation check - testing availability
+[2026-02-26T10:25:20.210Z] [INFO] Shutdown request received from client editor-4408-2bguid
+[2026-02-26T10:25:20.220Z] [INFO] Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-02-26T10:25:20.221Z] [INFO] Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-02-26T10:25:20.232Z] [DEBUG] MessageSender blocked
+[2026-02-26T10:25:20.232Z] [DEBUG] MessageSender blocked
+[2026-02-26T10:25:20.232Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-26T10:25:20.234Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-02-26T10:25:20.234Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-27T10:12:06.523Z] [INFO] === RELAY SERVER STARTED ===
+[2026-02-27T10:12:06.525Z] [INFO] Parsed config: {
+  "port": 9001,
+  "mcpClientPort": 9002,
+  "editorPid": "4476",
+  "shutdownDelaySeconds": 180
+}
+[2026-02-27T10:12:06.524Z] [INFO] Starting relay server...
+[2026-02-27T10:12:06.525Z] [INFO] Command line arguments: [
+  "bun",
+  "/$bunfs/root/relay_mac_arm64",
+  "--relay",
+  "--port",
+  "9001",
+  "--mcp-client-port",
+  "9002",
+  "--editor-pid",
+  "4476",
+  "--shutdown-delay",
+  "180"
+]
+[2026-02-27T10:12:06.525Z] [INFO] Creating RelayEditor...
+[2026-02-27T10:12:06.525Z] [INFO] Initializing relay components...
+[2026-02-27T10:12:06.529Z] [INFO] WebSocket server started
+[2026-02-27T10:12:06.529Z] [INFO] Relay server initialization completed
+[2026-02-27T10:12:06.529Z] [INFO] MCP Client initialized at port: 9002
+[2026-02-27T10:12:06.557Z] [INFO] Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-02-27T10:56:51.016Z] [INFO] Unity client connected with ID: editor-4476-zuil6y
+[2026-02-27T10:56:51.053Z] [DEBUG] Server validation check - testing availability
+[2026-02-27T11:32:00.914Z] [INFO] Shutdown request received from client editor-4476-zuil6y
+[2026-02-27T11:32:00.923Z] [INFO] Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-02-27T11:32:00.924Z] [INFO] Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-02-27T11:32:00.931Z] [DEBUG] MessageSender blocked
+[2026-02-27T11:32:00.931Z] [DEBUG] MessageSender blocked
+[2026-02-27T11:32:00.931Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-02-27T11:32:00.932Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-02-27T11:32:00.931Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-03-03T10:17:26.379Z] [INFO] === RELAY SERVER STARTED ===
+[2026-03-03T10:17:26.379Z] [INFO] Command line arguments: [
+  "bun",
+  "/$bunfs/root/relay_mac_arm64",
+  "--relay",
+  "--port",
+  "9001",
+  "--mcp-client-port",
+  "9002",
+  "--editor-pid",
+  "10851",
+  "--shutdown-delay",
+  "180"
+]
+[2026-03-03T10:17:26.379Z] [INFO] Starting relay server...
+[2026-03-03T10:17:26.379Z] [INFO] Initializing relay components...
+[2026-03-03T10:17:26.379Z] [INFO] Creating RelayEditor...
+[2026-03-03T10:17:26.379Z] [INFO] Parsed config: {
+  "port": 9001,
+  "mcpClientPort": 9002,
+  "editorPid": "10851",
+  "shutdownDelaySeconds": 180
+}
+[2026-03-03T10:17:26.385Z] [INFO] Relay server initialization completed
+[2026-03-03T10:17:26.385Z] [INFO] WebSocket server started
+[2026-03-03T10:17:26.385Z] [INFO] MCP Client initialized at port: 9002
+[2026-03-03T10:17:26.399Z] [INFO] Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-03-03T10:17:26.480Z] [INFO] Unity client connected with ID: editor-10851-zz8yn7
+[2026-03-03T10:17:26.527Z] [DEBUG] Server validation check - testing availability
+[2026-03-03T10:53:34.511Z] [DEBUG] MessageSender blocked
+[2026-03-03T10:53:34.531Z] [DEBUG] MessageSender blocked
+[2026-03-03T10:53:34.531Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-03-03T10:53:34.535Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-03-03T10:53:34.550Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-03-03T10:56:34.585Z] [INFO] Shutdown: Initiating graceful shutdown: Dedicated client disconnected
+[2026-03-03T11:05:44.958Z] [INFO] Command line arguments: [
+  "bun",
+  "/$bunfs/root/relay_mac_arm64",
+  "--relay",
+  "--port",
+  "9001",
+  "--mcp-client-port",
+  "9002",
+  "--editor-pid",
+  "11579",
+  "--shutdown-delay",
+  "180"
+]
+[2026-03-03T11:05:44.958Z] [INFO] Starting relay server...
+[2026-03-03T11:05:44.958Z] [INFO] === RELAY SERVER STARTED ===
+[2026-03-03T11:05:44.958Z] [INFO] Parsed config: {
+  "port": 9001,
+  "mcpClientPort": 9002,
+  "editorPid": "11579",
+  "shutdownDelaySeconds": 180
+}
+[2026-03-03T11:05:44.958Z] [INFO] Creating RelayEditor...
+[2026-03-03T11:05:44.958Z] [INFO] Initializing relay components...
+[2026-03-03T11:05:44.965Z] [INFO] WebSocket server started
+[2026-03-03T11:05:44.965Z] [INFO] Relay server initialization completed
+[2026-03-03T11:05:44.965Z] [INFO] MCP Client initialized at port: 9002
+[2026-03-03T11:05:44.983Z] [INFO] Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-03-03T11:05:45.161Z] [INFO] Unity client connected with ID: editor-11579-jwvev4
+[2026-03-03T11:05:45.195Z] [DEBUG] Server validation check - testing availability
+[2026-03-03T11:12:04.123Z] [DEBUG] MessageSender blocked
+[2026-03-03T11:12:04.129Z] [DEBUG] MessageSender blocked
+[2026-03-03T11:12:04.130Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-03-03T11:12:04.129Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-03-03T11:12:04.138Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-03-03T11:12:10.179Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-03-03T11:12:10.172Z] [DEBUG] MessageSender unblocked (0 messages pending replay)
+[2026-03-03T11:12:10.181Z] [INFO] Unity client connected with ID: editor-11579-g4y07p
+[2026-03-03T11:12:10.218Z] [DEBUG] Server validation check - testing availability
+[2026-03-03T11:39:34.148Z] [INFO] Shutdown request received from client editor-11579-g4y07p
+[2026-03-03T11:39:34.157Z] [INFO] Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-03-03T11:39:34.158Z] [INFO] Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-03-03T11:39:34.180Z] [DEBUG] MessageSender blocked
+[2026-03-03T11:39:34.180Z] [DEBUG] MessageSender blocked
+[2026-03-03T11:39:34.180Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-03-03T11:39:34.180Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-03-03T11:39:34.180Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-03-03T16:46:11.513Z] [INFO] Initializing relay components...
+[2026-03-03T16:46:11.513Z] [INFO] === RELAY SERVER STARTED ===
+[2026-03-03T16:46:11.513Z] [INFO] Starting relay server...
+[2026-03-03T16:46:11.513Z] [INFO] Parsed config: {
+  "port": 9001,
+  "mcpClientPort": 9002,
+  "editorPid": "15394",
+  "shutdownDelaySeconds": 180
+}
+[2026-03-03T16:46:11.513Z] [INFO] Command line arguments: [
+  "bun",
+  "/$bunfs/root/relay_mac_arm64",
+  "--relay",
+  "--port",
+  "9001",
+  "--mcp-client-port",
+  "9002",
+  "--editor-pid",
+  "15394",
+  "--shutdown-delay",
+  "180"
+]
+[2026-03-03T16:46:11.513Z] [INFO] Creating RelayEditor...
+[2026-03-03T16:46:11.517Z] [INFO] WebSocket server started
+[2026-03-03T16:46:11.517Z] [INFO] Relay server initialization completed
+[2026-03-03T16:46:11.517Z] [INFO] MCP Client initialized at port: 9002
+[2026-03-03T16:46:11.531Z] [INFO] Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-03-03T16:46:11.564Z] [INFO] Unity client connected with ID: editor-15394-c75q4t
+[2026-03-03T16:46:11.613Z] [DEBUG] Server validation check - testing availability
+[2026-03-03T16:46:24.906Z] [INFO] Shutdown request received from client editor-15394-c75q4t
+[2026-03-03T16:46:24.916Z] [INFO] Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-03-03T16:46:24.916Z] [INFO] Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-03-03T16:46:24.963Z] [DEBUG] MessageSender blocked
+[2026-03-03T16:46:24.964Z] [WARN] Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-03-03T16:46:24.963Z] [DEBUG] MessageSender blocked
+[2026-03-03T16:46:24.963Z] [INFO] Client disconnected - blocking incoming messages and caching for replay
+[2026-03-03T16:46:24.964Z] [INFO] Auto-shutdown timer started due to client disconnection
+[2026-03-05T09:18:36.209Z] [INFO] === RELAY SERVER STARTED ===
+[2026-03-05T09:18:36.209Z] [INFO] Initializing relay components...
+[2026-03-05T09:18:36.209Z] [INFO] Command line arguments: [
+  "bun",
+  "/$bunfs/root/relay_mac_arm64",
+  "--relay",
+  "--port",
+  "9001",
+  "--mcp-client-port",
+  "9002",
+  "--editor-pid",
+  "17398",
+  "--shutdown-delay",
+  "180"
+]
+[2026-03-05T09:18:36.209Z] [INFO] Starting relay server...
+[2026-03-05T09:18:36.209Z] [INFO] Creating RelayEditor...
+[2026-03-05T09:18:36.209Z] [INFO] Parsed config: {
+  "port": 9001,
+  "mcpClientPort": 9002,
+  "editorPid": "17398",
+  "shutdownDelaySeconds": 180
+}
+[2026-03-05T09:18:36.214Z] [INFO] WebSocket server started
+[2026-03-05T09:18:36.214Z] [INFO] Relay server initialization completed
+[2026-03-05T09:18:36.214Z] [INFO] MCP Client initialized at port: 9002
+[2026-03-05T09:18:36.227Z] [INFO] Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-03-05T09:18:36.992Z] [INFO] Unity client connected with ID: editor-17398-2a786t
+[2026-03-05T09:18:37.061Z] [DEBUG] Server validation check - testing availability
