@@ -130,9 +130,11 @@ GameObject:
   - component: {fileID: 17158953}
   - component: {fileID: 17158960}
   - component: {fileID: 17158959}
+  - component: {fileID: 17158963}
   - component: {fileID: 17158958}
   - component: {fileID: 17158957}
   - component: {fileID: 17158956}
+  - component: {fileID: 17158962}
   - component: {fileID: 17158955}
   - component: {fileID: 17158954}
   - component: {fileID: 17158961}
@@ -346,6 +348,31 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &17158962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17158952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafc6999a4d35429aa0e3cefed4007d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NavMeshAnimDriver
+--- !u!114 &17158963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17158952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868793e50eb554133819aa0dfe873212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NavMeshAnim
+  animator: {fileID: 1850934636}
 --- !u!1 &24388916
 GameObject:
   m_ObjectHideFlags: 0

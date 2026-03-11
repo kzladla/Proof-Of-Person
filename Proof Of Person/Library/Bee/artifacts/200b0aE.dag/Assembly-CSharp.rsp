@@ -498,6 +498,7 @@
 "Assets/Scripts/Game_Manager.cs"
 "Assets/Scripts/npc/Entry_Target.cs"
 "Assets/Scripts/npc/Interact_test.cs"
+"Assets/Scripts/npc/NavmeshAnim.cs"
 "Assets/Scripts/npc/NPC_Controller.cs"
 "Assets/Scripts/npc/Targets.cs"
 "Assets/Scripts/player/FirstPersonCamera.cs"
