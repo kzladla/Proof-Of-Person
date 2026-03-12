@@ -2,16 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This Script handles the first person camera controls 
+// It allows the player to look around using the mouse and locks the cursor to the center of the screen
+
 public class FirstPersonCamera : MonoBehaviour
 {
+    [Header("Camera Settings")]
 
-    // variables
-    public Transform player;
-    public float mouseSensitivity = 2f;
-    float cameraVerticalRotation = 0f;
-    float cameraHorizontalRotation = 0f;
+    // gets the player transform to rotate the camera around it
+    [SerializeField] private Transform player;
 
-    bool lockedCursor = true;
+    // how sensitive the mouse movement is for rotating the camera
+    [SerializeField] private float mouseSensitivity = 2f;
+
+    [SerializeField] private float cameraVerticalRotation = 0f;
+    [SerializeField] private float cameraHorizontalRotation = 0f;
+
+    [SerializeField] private bool lockedCursor = true;
 
 
     void Start()

@@ -8,10 +8,18 @@ public class NPC_Controller : MonoBehaviour
     public NavMeshAgent agent;
     public Transform[] targets;   // array of targets to move position forward
     
+
     private NPC_Controller nPC_Controller;  
     // targets for approve and deny
     [SerializeField] private Transform Approve_Target;
     [SerializeField] private Transform Deny_Target;
+
+
+    // animation controller for the NPC 
+    [SerializeField] private Animator animator;
+
+  
+
 
     // current position in queue 0 = back - 3 = front
     public int currentTargetIndex = 0;
@@ -37,6 +45,7 @@ public class NPC_Controller : MonoBehaviour
         {
             SwitchTarget();
         }
+
     }
 
     public void SwitchTarget()
