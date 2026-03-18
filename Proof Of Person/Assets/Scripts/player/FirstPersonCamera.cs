@@ -46,4 +46,6 @@ public class FirstPersonCamera : MonoBehaviour
         // apply both rotations to the camera
         transform.localEulerAngles = new Vector3(cameraVerticalRotation, cameraHorizontalRotation, 0f);
     }
+
+
 }

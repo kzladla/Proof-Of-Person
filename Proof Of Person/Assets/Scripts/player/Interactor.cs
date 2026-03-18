@@ -9,8 +9,11 @@ interface IInteractable
 
 public class Interactor : MonoBehaviour
 {
+    private NPC_Controller nPC_Controller;
     public Transform InteractorSource;
     public float InteractRange = 5f;
+
+    [SerializeField] private GameObject IDCanvas;
 
     void Update()
     {
@@ -20,21 +23,23 @@ public class Interactor : MonoBehaviour
         if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
         {   // if it does, check if it has an NPC_Controller script attached
             if (hitInfo.collider.TryGetComponent(out NPC_Controller npc))
-            {   // if a is pressed send to approve target from controller script
-                if (Input.GetKeyDown(KeyCode.A))
-                {   // 3 is the front of the queue, only approve if at the front
-                    if (npc.currentTargetIndex == 3)
-                    {
-                        npc.Approve();
-                    }
-                }// if d is pressed send to deny target from controller script
-                if (Input.GetKeyDown(KeyCode.D))
+            {   
+                if (Input.GetKeyDown(KeyCode.E))
                 {
-                    if (npc.currentTargetIndex == 3)
-                    {
-                        npc.Deny();
-                    }
+                    IDCanvas.SetActive(true);
+                    Cursor.visible = true;
+                    Cursor.lockState = CursorLockMode.None;
+
                 }
+                // // if a is pressed send to approve target from controller script
+                // if (Input.GetKeyDown(KeyCode.A))
+                // {   
+                //     npc.Approve();
+                // }   // if d is pressed send to deny target from controller script
+                // if (Input.GetKeyDown(KeyCode.D))
+                // {
+                //     npc.Deny();
+                // }
             }
         }
         // show ray in scene view for debugging

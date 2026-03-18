@@ -9,7 +9,7 @@ public class NPC_Controller : MonoBehaviour
     public Transform[] targets;   // array of targets to move position forward
     
 
-    private NPC_Controller nPC_Controller;  
+ 
     // targets for approve and deny
     [SerializeField] private Transform Approve_Target;
     [SerializeField] private Transform Deny_Target;
@@ -41,10 +41,10 @@ public class NPC_Controller : MonoBehaviour
     {
         // press e to switch target / move queue forward
         // for debugging - remove later 
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            SwitchTarget();
-        }
+        // if (Input.GetKeyDown(KeyCode.E))
+        // {
+        //     SwitchTarget();
+        // }
 
     }
 
@@ -52,6 +52,8 @@ public class NPC_Controller : MonoBehaviour
     {
         // if no targets, do nothing
         if (targets.Length == 0) return;
+
+    
 
         // go to next queue target
         currentTargetIndex++;
@@ -79,15 +81,24 @@ public class NPC_Controller : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
     public void Approve()
-    {   // move to approve target position
-        agent.SetDestination(Approve_Target.position);
-        hideUI();
+    {   // only approve if at the front of the queue
+        if (currentTargetIndex == 3)
+        {
+            // move to approve target position
+            agent.SetDestination(Approve_Target.position);
+            hideUI();
+        }
 
     }
     public void Deny()
-    {   // move to deny target position
-        agent.SetDestination(Deny_Target.position);
-        hideUI();
+    {   
+        if (currentTargetIndex == 3)
+        {
+            // move to deny target position
+            agent.SetDestination(Deny_Target.position);
+            hideUI();
+        }
 
     }
+
 }
