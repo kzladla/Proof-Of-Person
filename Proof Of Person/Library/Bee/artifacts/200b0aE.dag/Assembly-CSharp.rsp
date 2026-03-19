@@ -502,6 +502,8 @@
 "Assets/Scripts/npc/Targets.cs"
 "Assets/Scripts/player/FirstPersonCamera.cs"
 "Assets/Scripts/player/Interactor.cs"
+"Assets/Scripts/UI/Entry_Buttons.cs"
+"Assets/Scripts/UI/UV_Controller.cs"
 -langversion:9.0
 /deterministic
 /optimize+
